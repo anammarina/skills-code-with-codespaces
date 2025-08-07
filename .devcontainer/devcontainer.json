@@ -8,5 +8,9 @@
         "ms-python.python"
       ]
     }
+  },
+  "postCreateCommand": "bash .devcontainer/postCreate.sh",
+  "features": {
+    "ghcr.io/devcontainers/features/github-cli:1": {}
   }
 }
